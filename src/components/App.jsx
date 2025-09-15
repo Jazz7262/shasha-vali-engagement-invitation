@@ -11,7 +11,7 @@ import Timeline from "./Timeline";
 import CountDown from "./CountDown";
 import Compliments from "./Compliments";
 import InviteNote from "./InviteNote";
-import DeveloperInfo from "./DeveloperInfo";
+// import DeveloperInfo from "./DeveloperInfo";
 import Audio from "./Audio";
 import CustomModel from "./CustomModel";
 import Logo from "./Logo";
