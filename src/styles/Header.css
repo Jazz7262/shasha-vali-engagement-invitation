@@ -1,0 +1,105 @@
+#header {
+    color: #002e20;
+    text-align: justify;
+    position: relative;
+    z-index: 1;
+    padding: 7%;
+    background: #d2fbd0;
+    /* background: radial-gradient(circle, #9cecfb, #65c7f7, #0052d4);
+    background-size: 250% 250%; */
+    /* animation: hearder-animation 10s infinite linear; */
+}
+@keyframes hearder-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    25% {
+        background-position: 100% 100%;
+    }
+    50% {
+        background-position: 100% 0%;
+    }
+    75% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+#header .poster-wrapper {
+    padding: 7%;
+    background-image: url("../../public/assets/images/bg-1.jpg");
+    background-size: 100% 100%;
+}
+
+#header .poster {
+    border-radius: 50%;
+    width: 40%;
+    margin-bottom: 7%;
+}
+
+#header .text-wrapper {
+    padding: 7%;
+    background: rgb(77, 1, 53);
+    background: linear-gradient(
+        180deg,
+        rgba(77, 1, 53, 1) 0%,
+        rgba(255, 0, 129, 1) 100%
+    );
+    text-shadow: 2px 2px 5px #000, 2px 2px 5px #000;
+}
+
+#header h3,
+#header h4 {
+    line-height: 1.5;
+}
+
+#header h4.ayat {
+    margin: 5% 0px;
+}
+
+#header .bg-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url("../../public/assets/images/bg-1.jpg");
+    background-size: 8%;
+    opacity: 0.2;
+}
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #header {
+        padding: 17% 10% 10%;
+    }
+    #header .poster-wrapper {
+        padding: 17% 10%;
+    }
+    #header .poster {
+        width: 50%;
+        margin-bottom: 5%;
+    }
+    #header .text-wrapper {
+        padding: 10% 10%;
+    }
+    #header h3 {
+        font-size: 1rem;
+    }
+    #header h4 {
+        font-size: 12px;
+    }
+    #header h4.ayat {
+        margin: 7% 0px;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

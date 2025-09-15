@@ -1,0 +1,48 @@
+/* Big Screens */
+/* Invite-note */
+#invite-note {
+  color: #fff;
+  background: #006647;
+  background: radial-gradient(circle, #006647 40%, #002e20 70%);
+  /* text-shadow: 1px 1px 5px #000; */
+}
+
+#invite-note .invite-note-wrapper {
+  padding: 7% 7%;
+  background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+}
+
+#invite-note .invite-note-wrapper h2 {
+  font-family: "Roboto Slab", serif;
+  line-height: 1.5;
+}
+
+#invite-note .address {
+  line-height: 1.5;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+  /* Invite-note */
+  #invite-note .invite-note-wrapper {
+    padding: 7% 10%;
+  }
+  #invite-note h2 {
+    font-size: 1rem;
+  }
+  #invite-note h5 {
+    font-size: 0.75rem;
+  }
+  #invite-note p {
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

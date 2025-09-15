@@ -1,0 +1,146 @@
+/* Big Screens */
+#timeline {
+  padding: 7% 7%;
+  color: #002e20;
+  background: url("../../public/assets/images/trianglify-lowres.png") repeat
+    fixed 0%;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
+  position: relative;
+}
+
+/* Multi - Timeline - start*/
+.multi-timeline .wrapper {
+  margin-top: 7%;
+}
+
+.multi-timeline .left {
+  border-right: 1.5px solid #002e20;
+}
+
+.multi-timeline .right {
+  border-left: 1.5px solid #002e20;
+}
+
+.multi-timeline h1 {
+  line-height: 2;
+  font-family: "Great vibes", cursive;
+}
+
+.multi-timeline h2 {
+  font-family: "Great Vibes", cursive;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.multi-timeline p {
+  font-size: 1.25rem;
+  color: #002e20;
+  line-height: 1.4;
+}
+/* Multi - Timeline - end */
+
+/* Single - Timeline - start */
+/* #timeline {
+    padding: 7% 7%;
+    color: #002e20;
+    background: url("../../public/assets/images/bg-img-2.jpg") repeat fixed 0%;
+    text-shadow: 1px 1px 5px #c4c4c4;
+} */
+
+#timeline #timeline-ts-particles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.single-timeline .wrapper {
+  display: block;
+  border: 10px solid #002e20;
+  border-radius: 5px;
+}
+
+.single-timeline .content {
+  display: block;
+  margin: 10px;
+  padding: 3% 10%;
+  border: 2px solid #002e20;
+  border-radius: 5px;
+}
+
+.single-timeline h1.inshaallaah {
+  font-family: "Great vibes", cursive;
+}
+
+.single-timeline h1 {
+  line-height: 2;
+  font-size: 2.5rem;
+  font-family: "Great vibes", cursive;
+}
+
+.single-timeline h2 {
+  font-family: "Great Vibes", cursive;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.single-timeline p {
+  font-size: 1.25rem;
+  color: #002e20;
+  line-height: 1.4;
+}
+/* Single - Timeline - end */
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+  /* Multi - Timeline - start */
+  #timeline {
+    padding: 7% 10% 10%;
+  }
+  .next {
+    padding-top: 7%;
+  }
+  .multi-timeline .right,
+  .multi-timeline .left {
+    border: none;
+    border-left: 2px solid;
+  }
+  .multi-timeline h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .multi-timeline p {
+    font-size: 12px;
+  }
+  .multi-timeline h2 {
+    font-size: 1.2rem;
+  }
+  /* Multi - Timeline - end */
+
+  /* Single - Timeline - start */
+  .single-timeline .wrapper {
+    border: 5px solid #002e20;
+  }
+  .single-timeline h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .single-timeline p {
+    font-size: 12px;
+  }
+  .single-timeline h2 {
+    font-size: 1.2rem;
+  }
+  /* Single - Timeline - end */
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

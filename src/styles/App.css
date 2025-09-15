@@ -1,0 +1,31 @@
+/* Big Screens */
+.toast-message {
+  position: fixed;
+  bottom: 10%;
+  left: 25%;
+  background-color: #343a40;
+  width: 50%;
+  padding: 4px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.toast-message span {
+  font-size: 1rem;
+  color: white;
+}
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+  .toast-message span {
+    font-size: 0.75rem;
+  }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

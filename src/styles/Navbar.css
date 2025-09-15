@@ -1,0 +1,199 @@
+#navbar .navbar {
+  padding: 15px 7%;
+  transition: all 0.5s;
+}
+
+.fixed-top {
+  z-index: 1;
+}
+
+.navbar-brand {
+  padding: 0px;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Great Vibes", cursive;
+  /* font-family: "Tangerine", cursive; */
+  word-spacing: 5px;
+  letter-spacing: 1px;
+}
+
+.navbar-brand .icon {
+  margin: 0px 5px 0px 8px;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:focus {
+  color: #002e20 !important;
+  text-shadow:
+    0px 0px 1px #002e20,
+    0px 0px 1px #002e20;
+}
+
+.nav-bg {
+  background: #9cecfb;
+  background: radial-gradient(circle, #65c7f7, #0052d4);
+  background: rgb(0, 46, 32);
+  background: linear-gradient(
+    145deg,
+    rgba(0, 46, 32, 1) 0%,
+    rgba(0, 102, 71, 1) 50%,
+    rgba(0, 46, 32, 1) 100%
+  );
+  background-size: 200%;
+  background-position: 0% 0%;
+  animation: nav-bg-animation 5s infinite linear;
+}
+@keyframes nav-bg-animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.nav-bg .navbar-brand,
+.nav-bg .navbar-brand:focus {
+  color: #fff !important;
+  text-shadow:
+    0px 0px 2px #002e20,
+    0px 0px 2px #002e20;
+}
+
+/* Navbar Toggler Button */
+.navbar-toggler {
+  padding: 0px;
+  border: none;
+  font-size: 12px;
+}
+
+/* .navbar-toggler-icon:hover {
+    color: #47b2e4;
+} */
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  font-size: 15px;
+  color: #002e20;
+}
+
+.nav-bg .navbar-toggler-icon {
+  color: #fff;
+}
+
+.xmark {
+  position: fixed;
+  top: 30px;
+  right: 15px;
+}
+
+.xmark:hover {
+  animation: rotate 400ms linear 1;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+/* Navigation links laptop view */
+.navbar-nav .nav-item .nav-link {
+  color: white;
+  text-shadow: 2px 2px 5px #000;
+  transition: all 400ms linear;
+  padding: 0px;
+  margin-left: 1rem;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item .nav-link:hover {
+  color: #002e20;
+  font-weight: 700;
+  text-shadow: none;
+}
+.nav-bg .nav-item.active .nav-link,
+.nav-bg .nav-item .nav-link:hover {
+  color: #fff;
+  font-weight: 700;
+}
+
+/* Navigation Bar Mobile View */
+.full-scrn-nav {
+  display: none;
+  background-color: #002e20a0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+  padding: 7%;
+  padding-top: 55px;
+  transition: all ease-in 1s;
+}
+
+.full-scrn-nav-wrapper {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #d2fbd0;
+}
+
+
+.full-scrn-nav-wrapper .full-scrn-nav-content .navbar-toggler-icon {
+    color: #fff;
+  }
+
+.full-scrn-nav-content ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.full-scrn-nav-content ul li {
+  margin: 0px 20px 10px;
+  text-align-last: left;
+}
+
+.full-scrn-nav-content ul li a {
+  text-decoration: none;
+  color: #002e20;
+  font-weight: 500;
+  transition: all 400ms linear;
+}
+
+.full-scrn-nav-content ul li a:hover,
+.full-scrn-nav-content ul li.active a {
+  color: #002e20;
+  text-shadow:
+    0px 0px 1px #002e20,
+    0px 0px 1px #002e20;
+}
+
+@media (min-width: 992px) {
+  #menu-btn {
+    visibility: hidden;
+  }
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+  #navbar .navbar {
+    padding: 15px 10%;
+  }
+  .navbar-brand {
+    font-size: 1.25rem;
+    line-height: 1;
+    letter-spacing: 0px;
+  }
+
+  .navbar-toggler-icon {
+    font-size: 0.75rem;
+  }
+}

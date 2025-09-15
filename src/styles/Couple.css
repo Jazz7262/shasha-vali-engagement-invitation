@@ -1,0 +1,197 @@
+/* Big Screens */
+#couple {
+  background: rgb(210, 251, 208);
+  background: linear-gradient(
+    145deg,
+    rgba(210, 251, 208, 1) 20%,
+    #fff 50%,
+    rgba(210, 251, 208, 1) 80%
+  );
+  position: relative;
+}
+
+#couple .couple-background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#couple .couple-wrapper {
+  background-image: url(https://www.transparenttextures.com/patterns/arches.png);
+  padding: 7% 7%;
+  position: relative;
+}
+
+#couple #couple-ts-particles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#couple .title-quote {
+  padding-bottom: 15px;
+  border-bottom: 2px solid #002e20;
+  font-family: "Great Vibes", cursive;
+  color: #002e20;
+}
+
+#couple .row {
+  padding: 7% 0% 0%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#couple .col-lg-5,
+.col-lg-2 {
+  padding: 0;
+}
+
+#couple .heart-mid {
+  width: 85%;
+  margin-top: 50%;
+}
+
+#couple .img-wrapper {
+  display: inline-block;
+  border: 5px solid #002e20;
+  border-radius: 50%;
+  padding: 10px;
+  width: 80%;
+  position: relative;
+}
+
+#couple .couple-img {
+  width: 100%;
+  border: 2px solid #002e20;
+  border-radius: 50%;
+}
+
+#couple .couple-img.bride {
+  background: linear-gradient(180deg, #fff 0%, rgba(210, 251, 208, 1) 100%);
+}
+
+#couple .flower {
+  width: 150px;
+  position: absolute;
+}
+
+#couple .groom-flower {
+  bottom: -20px;
+  left: 50px;
+}
+
+#couple .bride-flower {
+  bottom: -20px;
+  right: 30px;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#couple .info {
+  padding-top: 12%;
+}
+
+#couple .info h3 {
+  color: #002e20;
+  font-weight: 700;
+}
+
+#couple .info sub {
+  font-size: 10px;
+}
+
+#couple .info p {
+  color: #002e20;
+  margin: 0px;
+}
+
+/* Carousel Buttons */
+.carousel-control-next {
+  right: -20px;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23002e2080' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-prev {
+  left: -20px;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23002e2080' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-indicators {
+  bottom: -50px;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #002e2080;
+}
+.carousel-indicators .active {
+  background-color: #002e20;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+  #couple .couple-wrapper {
+    padding: 10% 10%;
+  }
+  #couple .title-quote {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  #couple .row {
+    padding: 10% 0% 0%;
+  }
+  #couple .img-wrapper {
+    width: 70%;
+  }
+  #couple .couple-img {
+    width: 100%;
+  }
+  #couple .flower {
+    width: 80px;
+  }
+  #couple .groom-flower {
+    bottom: -10px;
+    left: 60px;
+  }
+  #couple .bride-flower {
+    bottom: -10px;
+    right: 60px;
+  }
+  #couple .groom-info,
+  .bride-info {
+    padding-top: 18% !important;
+  }
+  #couple .info p {
+    font-size: 12px;
+  }
+  #couple h3 {
+    font-size: 1rem;
+  }
+  #couple .heart-mid {
+    width: 40%;
+    margin: 10%;
+  }
+  /* Carousel Buttons */
+  .carousel-control-next {
+    right: 0px;
+  }
+  .carousel-control-prev {
+    left: 0px;
+  }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

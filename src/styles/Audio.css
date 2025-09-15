@@ -1,0 +1,62 @@
+/* Big Screens */
+
+/* Audio Icon */
+.swing-icon {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    background-color: #002e20;
+    border-radius: 50%;
+    padding-top: 2px;
+}
+
+#play-btn {
+    color: #fff;
+    background-color: transparent;
+    animation: swing 1s both infinite;
+    border: none;
+}
+@keyframes swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg);
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+    100% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+}
+
+#play-btn:hover {
+    cursor: pointer;
+}
+#play-btn:focus {
+    border: none;
+    outline: none;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

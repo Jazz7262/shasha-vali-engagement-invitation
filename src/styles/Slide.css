@@ -1,0 +1,298 @@
+/* Big Screens */
+#slide {
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.492);
+  position: relative;
+  color: #fff;
+  background: #014b43;
+  background: radial-gradient(circle, #014b43 0%, #002e20 100%);
+  overflow: hidden;
+  /* background: url("../../public/assets/images/bg-img-2.jpg") repeat fixed 50%; */
+  height: 90vh;
+}
+
+#slide .slide-wrapper {
+  padding: 12% 7%;
+}
+
+#slide .img-container img {
+  width: 60%;
+  animation: wheel-animation 20s linear infinite;
+}
+@keyframes wheel-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#slide .text-content {
+  width: 100%;
+  height: 25%;
+  position: absolute;
+  top: 37.5%;
+  left: 0%;
+  /* background: #000428; */
+  /* background: radial-gradient(circle, #004e92 20%, #000428 80%); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 
+#slide .text-content h4,
+#slide .text-content h1,
+#slide .text-content p,
+#slide .text-content p sup {
+    background: #ada996; 
+    background: -webkit-linear-gradient(
+        to right,
+        #ada996,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #ada996
+    );
+    background: linear-gradient(
+        90deg,
+        #ada996,
+        #eaeaea,
+        #dbdbdb,
+        #f2f2f2,
+        #ada996
+    ); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+#slide .text-content h4 {
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+#slide .text-content h1 {
+  font-family: "Great vibes", cursive;
+  font-size: 3rem;
+  margin-bottom: 12px;
+}
+
+#slide .text-content p {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-bottom: 0px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  -webkit-animation: glow 1.5s linear infinite;
+  -moz-animation: glow 1.5s linear infinite;
+  animation: glow 1.5s linear infinite;
+}
+/* Glowing Date Animation  */
+@keyframes glow {
+  0% {
+    box-shadow:
+      -5px -5px 5px #ffffff50,
+      5px 5px 5px #ffffff50,
+      -5px 5px 5px #ffffff50,
+      5px -5px 5px #ffffff50;
+  }
+
+  50% {
+    box-shadow: none;
+  }
+
+  100% {
+    box-shadow:
+      -5px -5px 5px #ffffff50,
+      5px 5px 5px #ffffff50,
+      -5px 5px 5px #ffffff50,
+      5px -5px 5px #ffffff50;
+  }
+}
+
+#slide .mandal {
+  width: 180px;
+  position: absolute;
+  animation: slide-mandal-animation 10s linear infinite;
+}
+@keyframes slide-mandal-animation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#slide .mandal.top-1 {
+  width: 150px;
+  top: -80px;
+  right: 356px;
+}
+#slide .mandal.top-2 {
+  top: -50px;
+  right: 192px;
+  transform: rotate(180deg);
+}
+#slide .mandal.top-3 {
+  width: 200px;
+  top: 25px;
+  right: 25px;
+}
+#slide .mandal.top-4 {
+  top: 195px;
+  right: -45px;
+  transform: rotate(180deg);
+}
+#slide .mandal.top-5 {
+  width: 150px;
+  top: 358px;
+  right: -80px;
+}
+
+#slide .mandal.bottom-1 {
+  width: 150px;
+  bottom: -80px;
+  left: 356px;
+}
+#slide .mandal.bottom-2 {
+  bottom: -50px;
+  left: 192px;
+  transform: rotate(180deg);
+}
+#slide .mandal.bottom-3 {
+  width: 200px;
+  bottom: 25px;
+  left: 25px;
+}
+#slide .mandal.bottom-4 {
+  bottom: 195px;
+  left: -45px;
+  transform: rotate(180deg);
+}
+#slide .mandal.bottom-5 {
+  width: 150px;
+  bottom: 358px;
+  left: -80px;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+  #slide .text-content h3 {
+    font-size: 90%;
+  }
+  #slide .text-content h1 {
+    font-size: 200%;
+    margin-bottom: 10px;
+  }
+  #slide .text-content p {
+    font-size: 80%;
+    padding: 6px 12px;
+  }
+  .wheel-bottom-right {
+    display: none;
+  }
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+  #slide {
+    height: 60vh;
+  }
+  #slide .slide-wrapper {
+    padding: 20% 10%;
+  }
+  #slide .img-container img {
+    width: 100%;
+  }
+  #slide .text-content h4 {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+  #slide .text-content h1 {
+    font-size: 1.35rem;
+    margin-bottom: 6px;
+  }
+  #slide .text-content p {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
+  .wheel {
+    width: 35%;
+  }
+  .wheel-top {
+    top: -16.5%;
+    left: 32.5%;
+  }
+  .wheel-bottom {
+    bottom: -16.5%;
+    left: 32.5%;
+  }
+
+  #slide .mandal {
+    width: 100px;
+  }
+
+  #slide .mandal.top-1 {
+    width: 80px;
+    top: -50px;
+    right: 200px;
+  }
+  #slide .mandal.top-2 {
+    top: -40px;
+    right: 107px;
+  }
+  #slide .mandal.top-3 {
+    width: 120px;
+    top: 20px;
+    right: 20px;
+  }
+  #slide .mandal.top-4 {
+    top: 115px;
+    right: -30px;
+    transform: rotate(180deg);
+  }
+  #slide .mandal.top-5 {
+    width: 80px;
+    top: 205px;
+    right: -50px;
+  }
+
+  #slide .mandal.bottom-1 {
+    width: 80px;
+    bottom: -50px;
+    left: 200px;
+  }
+  #slide .mandal.bottom-2 {
+    bottom: -40px;
+    left: 107px;
+  }
+  #slide .mandal.bottom-3 {
+    width: 120px;
+    bottom: 20px;
+    left: 20px;
+  }
+  #slide .mandal.bottom-4 {
+    bottom: 115px;
+    left: -30px;
+    transform: rotate(180deg);
+  }
+  #slide .mandal.bottom-5 {
+    width: 80px;
+    bottom: 205px;
+    left: -50px;
+  }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+  #slide .text-content h1 {
+    font-size: 100%;
+    margin-bottom: 4px;
+  }
+  #slide .text-content p {
+    padding: 3px 6px;
+  }
+}

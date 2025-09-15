@@ -1,0 +1,588 @@
+/* Big Screens */
+.animated-logo {
+    width: 180px;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 2px solid white;
+    background-color: #ffffff40;
+    border-top-right-radius: 5px;
+}
+
+.animated-logo a {
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+}
+
+.animated-logo .letters {
+    color: white;
+    font-family: "Nunito", serif;
+}
+
+.animated-logo .letter-1 {
+    animation: zoom-out-1 8s ease infinite;
+}
+
+@keyframes zoom-out-1 {
+    0% {
+        font-size: 0rem;
+    }
+    5% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-2 {
+    animation: zoom-out-2 8s ease infinite;
+}
+
+@keyframes zoom-out-2 {
+    0% {
+        font-size: 0rem;
+    }
+    5% {
+        font-size: 0rem;
+    }
+    10% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-3 {
+    animation: zoom-out-3 8s ease infinite;
+}
+
+@keyframes zoom-out-3 {
+    0% {
+        font-size: 0rem;
+    }
+    10% {
+        font-size: 0rem;
+    }
+    15% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-4 {
+    animation: zoom-out-4 8s ease infinite;
+}
+
+@keyframes zoom-out-4 {
+    0% {
+        font-size: 0rem;
+    }
+    15% {
+        font-size: 0rem;
+    }
+    20% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-5 {
+    animation: zoom-out-5 8s ease infinite;
+}
+
+@keyframes zoom-out-5 {
+    0% {
+        font-size: 0rem;
+    }
+    20% {
+        font-size: 0rem;
+    }
+    25% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-6 {
+    animation: zoom-out-6 8s ease infinite;
+}
+
+@keyframes zoom-out-6 {
+    0% {
+        font-size: 0rem;
+    }
+    25% {
+        font-size: 0rem;
+    }
+    30% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-7 {
+    animation: zoom-out-7 8s ease infinite;
+}
+
+@keyframes zoom-out-7 {
+    0% {
+        font-size: 0rem;
+    }
+    30% {
+        font-size: 0rem;
+    }
+    35% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-8 {
+    animation: zoom-out-8 8s ease infinite;
+}
+
+@keyframes zoom-out-8 {
+    0% {
+        font-size: 0rem;
+    }
+    35% {
+        font-size: 0rem;
+    }
+    40% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-9 {
+    animation: zoom-out-9 8s ease infinite;
+}
+
+@keyframes zoom-out-9 {
+    0% {
+        font-size: 0rem;
+    }
+    40% {
+        font-size: 0rem;
+    }
+    45% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-10 {
+    animation: zoom-out-10 8s ease infinite;
+}
+
+@keyframes zoom-out-10 {
+    0% {
+        font-size: 0rem;
+    }
+    45% {
+        font-size: 0rem;
+    }
+    50% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-11 {
+    animation: zoom-out-11 8s ease infinite;
+}
+
+@keyframes zoom-out-11 {
+    0% {
+        font-size: 0rem;
+    }
+    50% {
+        font-size: 0rem;
+    }
+    55% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+.animated-logo .letter-12 {
+    animation: zoom-out-12 8s ease infinite;
+}
+
+@keyframes zoom-out-12 {
+    0% {
+        font-size: 0rem;
+    }
+    55% {
+        font-size: 0rem;
+    }
+    60% {
+        font-size: 1.5rem;
+    }
+    90% {
+        font-size: 1.5rem;
+    }
+    95% {
+        font-size: 0rem;
+    }
+    100% {
+        font-size: 0rem;
+    }
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    .animated-logo {
+        width: 140px;
+        height: 30px;
+    }
+
+    .animated-logo a {
+        width: 140px;
+    }
+
+    @keyframes zoom-out-1 {
+        0% {
+            font-size: 0rem;
+        }
+        5% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-2 {
+        0% {
+            font-size: 0rem;
+        }
+        5% {
+            font-size: 0rem;
+        }
+        10% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-3 {
+        0% {
+            font-size: 0rem;
+        }
+        10% {
+            font-size: 0rem;
+        }
+        15% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-4 {
+        0% {
+            font-size: 0rem;
+        }
+        15% {
+            font-size: 0rem;
+        }
+        20% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-5 {
+        0% {
+            font-size: 0rem;
+        }
+        20% {
+            font-size: 0rem;
+        }
+        25% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-6 {
+        0% {
+            font-size: 0rem;
+        }
+        25% {
+            font-size: 0rem;
+        }
+        30% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-7 {
+        0% {
+            font-size: 0rem;
+        }
+        30% {
+            font-size: 0rem;
+        }
+        35% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-8 {
+        0% {
+            font-size: 0rem;
+        }
+        35% {
+            font-size: 0rem;
+        }
+        40% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-9 {
+        0% {
+            font-size: 0rem;
+        }
+        40% {
+            font-size: 0rem;
+        }
+        45% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-10 {
+        0% {
+            font-size: 0rem;
+        }
+        45% {
+            font-size: 0rem;
+        }
+        50% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-11 {
+        0% {
+            font-size: 0rem;
+        }
+        50% {
+            font-size: 0rem;
+        }
+        55% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+
+    @keyframes zoom-out-12 {
+        0% {
+            font-size: 0rem;
+        }
+        55% {
+            font-size: 0rem;
+        }
+        60% {
+            font-size: 1rem;
+        }
+        90% {
+            font-size: 1rem;
+        }
+        95% {
+            font-size: 0rem;
+        }
+        100% {
+            font-size: 0rem;
+        }
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}

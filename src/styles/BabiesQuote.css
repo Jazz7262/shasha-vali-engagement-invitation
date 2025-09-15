@@ -1,0 +1,74 @@
+/* Big Screens */
+#babies-quote {
+    background: url("../../public/assets/images/bg-3.jpg");
+    background-size: 100%;
+    position: relative;
+}
+
+#babies-quote #babies-quote-ts-particles {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#babies-quote .inner-content {
+    padding: 7% 15%;
+    color: #000428;
+}
+
+#babies-quote .inner-content h1 {
+    line-height: 2;
+    font-family: "Great vibes", cursive;
+    word-spacing: 5px;
+}
+
+#babies-quote .inner-content .wrapper {
+    text-align-last: right;
+}
+
+#babies-quote .inner-content h1.maashaallaah {
+    font-family: "Amiri", serif;
+}
+
+#babies-quote .inner-content h3 {
+    word-spacing: 5px;
+    line-height: 1.5;
+    font-family: "Tangerine", cursive;
+    text-align-last: right;
+}
+
+#babies-quote img {
+    width: 30%;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid;
+}
+
+/* Tablet Wide Screens */
+@media (max-width: 992px) {
+}
+
+/* New Mobile Phones Wide Screens */
+@media (max-width: 428px) {
+    #babies-quote {
+        background: url("../../public/assets/images/bg-3.jpg") repeat fixed 18%;
+    }
+    #babies-quote .inner-content {
+        padding: 7% 10%;
+    }
+    #babies-quote .inner-content h1 {
+        font-size: 1.5rem;
+    }
+    #babies-quote .inner-content h3 {
+        font-size: 1.25rem;
+    }
+    #babies-quote img {
+        width: 45%;
+    }
+}
+
+/* Old Mobile Phones Wide Screens */
+@media (max-width: 360px) {
+}
