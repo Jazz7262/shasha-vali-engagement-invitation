@@ -24,7 +24,7 @@ function BabiesQuote() {
                             ماشاءاللہ
                         </h1>
                         <img
-                            src="../assets/images/baby.jpg"
+                            src="../assets/images/baby.jpeg"
                             alt="Baby-Avatar"
                         />
                         <h3 className="mt-4 mr-4">--- Muhammadi Sadiya Tabassum.</h3>
